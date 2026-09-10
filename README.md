@@ -18,6 +18,7 @@ The project also uses Redis caching to reduce repeated requests to the external 
 * Responsive frontend design
 
 # Project URL
+* https://roadmap.sh/projects/weather-api-wrapper-service
 * Repo Link: https://github.com/Irshadwev/Weather-API
 * Get weather information by city: http://127.0.0.1:8000/weather-app/
 

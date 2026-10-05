@@ -5,10 +5,11 @@ import redis
 import requests
 import json 
 
+
 # Redis connection
 redis_client = redis.Redis(
-    host="localhost",
-    port=6379,
+    host=config("REDIS_HOST"),
+    port=config("REDIS_PORT", cast=int),
     db=0,
     decode_responses=True
 )
